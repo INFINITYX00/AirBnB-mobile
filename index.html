@@ -1,56 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Airbnb | Holiday rentals, cabins, beach houses & more</title>
-          <link rel="stylesheet" href="styles.css">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  </head>
-  <body>
-    <header>
-      <!-- Header -->
-      <header class="Header">
-        <div class="Header_menu">
-          <div class="Header_content">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 20px; width: 20px; fill: currentcolor;"><path d="M13 0a13 13 0 0 1 10.5 20.67l7.91 7.92-2.82 2.82-7.92-7.91A12.94 12.94 0 0 1 13 26a13 13 0 1 1 0-26zm0 4a9 9 0 1 0 0 18 9 9 0 0 0 0-18z"></path></svg>
-            <button>Anywhere</button>
-          </div>
-            <div class="Header_input">
-              <button>Any week</button>   
-              <span>.</span>
-              <button>Add guests</button>
-            </div>    
-              <div class="Header_slider">
-                <i class="fa-solid fa-sliders"></i>
-              </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airbnb | Holiday rentals, cabins, beach houses & more</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
 
-              <!-- Header Navbar-->
-              <navbar class="navbar">
-                <div class="navbar_pools">
-                  <button> <img src="img/amazing_pools.jpg" alt="icon of a pool"/> 
-                  <br>Amazing Pools</button>
-                </div> 
-                  <div class="navbar_grid">
-                    <button> <img src="img/off_the_grid.jpg" alt="icon of a small grid"/>
-                    <br>Off-the-grid</button>
-                  </div>
-                    <div class="navbar_lakefront">
-                      <button> <img src="img/lake.jpg" alt="icon of a lake"/>
-                      <br>Lakefront</button>
-                    </div>     
-                      <div class="navbar_world">
-                        <button> <img src="img/top_of_world.jpg" alt="icon of a mountain with flag at top"/>
-                        <br>Top of the world</button>
-                    </div>
-                      <div class="navbar_bed">
-                        <button> <img src="img/bed_breakfast.jpg" alt="icon of a cup of tea"/>
-                        <br>Bed & Breakfasts</button>
-                        </div>  
+  <header>
 
-    </header>
+  <!-- Header -->
+  <header class="Header">
+    <div class="Header_menu">
+      <div class="Header_content">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 20px; width: 20px; fill: currentcolor;"><path d="M13 0a13 13 0 0 1 10.5 20.67l7.91 7.92-2.82 2.82-7.92-7.91A12.94 12.94 0 0 1 13 26a13 13 0 1 1 0-26zm0 4a9 9 0 1 0 0 18 9 9 0 0 0 0-18z"></path></svg>
+        <button>Anywhere</button>
+      </div>
+
+      <div class="Header_input">
+        <button>Any week</button>   
+        <span>.</span>
+        <button>Add guests</button>
+      </div>    
+
+      <div class="Header_slider">
+        <i class="fa-solid fa-sliders"></i>
+      </div>
+    </div>  
+
+    <!-- Header Navbar-->
+    <navbar class="navbar">
+      <div class="navbar_pools">
+        <button> <img src="img/amazing_pools.jpg" alt="icon of a pool"/> 
+          <br>Amazing Pools</button>
+      </div> 
+
+      <div class="navbar_grid">
+        <button> <img src="img/off_the_grid.jpg" alt="icon of a small grid"/>
+        <br>Off-the-grid</button>
+      </div>
+
+      <div class="navbar_lakefront">
+        <button> <img src="img/lake.jpg" alt="icon of a lake"/>
+        <br>Lakefront</button>
+      </div>     
+
+      <div class="navbar_world">
+        <button> <img src="img/top_of_world.jpg" alt="icon of a mountain with flag at top"/>
+        <br>Top of the world</button>
+      </div>
+
+      <div class="navbar_bed">
+        <button> <img src="img/bed_breakfast.jpg" alt="icon of a cup of tea"/>
+        <br>Bed & Breakfasts</button>
+      </div>  
+
+      </header>
 
       <main>
+
         <section>
 
           <!-- Hotel Listings -->
@@ -63,194 +73,200 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path></svg>
                     </button> 
                   </div>
-                    <div class="hotel_location">
-                      <p>Sutton, UK</p> 
-                      <div class="hotel_description">
-                        <p>Individual Host</p>
-                        <p>10-15 Apr</p>
-                        <div class="hotel_price">
-                          <p><strong>£947</strong> total</p>
-                          <div class="hotel_star_icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;"><path fill-rule="evenodd" d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path></svg>
-                            <span class="hotel_rating">
-                            <span>4.92</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+               </div>
+               
+              <div class="hotel_info">
+                <div class="hotel_location">
+                  <p>Sutton, UK</p>
+                </div> 
+
+                <div class="hotel_description">
+                  <p>Individual Host</p>
+                  <p>10-15 Apr</p>
                 </div>
 
+                <div class="hotel_price">
+                  <p><strong>£947</strong>total</p>
+                </div>
+
+                <div class="hotel_star_icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;"><path fill-rule="evenodd" d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path></svg>
+                  <span class="hotel_rating">
+                  <span>4.92</span>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="hotel_listing">
+              <div class="hotel_img">
+                <img src="img/img2.webp" alt="picture of a cottage overlooking fields"/>
+                  <div class="hotel_hearticon">
+                    <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path></svg>
+                    </button> 
+                  </div>
+              </div>
                          
+              <div class="hotel_info">
+                <div class="hotel_location">
+                  <p>Northamptonshire, UK</p>
+                </div> 
+          
+                <div class="hotel_description">
+                  <p>Proessional Host</p>
+                  <p>18-23 Feb</p>
+                </div>
+          
+                <div class="hotel_price">
+                  <p><strong>£748</strong> total</p>
+                </div>
+          
+                <div class="hotel_star_icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;"><path fill-rule="evenodd" d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path></svg>
+                  <span class="hotel_rating">
+                  <span>4.97</span>
 
-                           
+                </div>
+              </div>
+            </div>
 
-                            
+            <div class="hotel_listing">
+              <div class="hotel_img">
+                <img src="img/img3.webp" alt="picture of a field"/>
+                  <div class="hotel_hearticon">
+                    <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path></svg>
+                    </button> 
+                  </div>
+              </div>
+                         
+              <div class="hotel_info">
+                <div class="hotel_location">
+                  <p>Sutton, UK</p>
+                </div> 
+          
+                <div class="hotel_description">
+                  <p>Individual Host</p>
+                  <p>6-11 May</p>
+                </div>
+          
+                <div class="hotel_price">
+                  <p><strong>£1,169</strong> total</p>
+                </div>
+          
+                <div class="hotel_star_icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;"><path fill-rule="evenodd" d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path></svg>
+                  <span class="hotel_rating">
+                  <span>4.99</span>
 
-                  <div class="hotel_listing">
-                    <div class="hotel_img">
-                      <img src="img/img2.webp" alt="picture of a cottage overlooking fields"/>
-                      
-                      <div class="hotel_hearticon">
-                        <button>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path></svg>
-                        </button> 
-                       </div>
-   
-                        <div class="hotel_location">
-                          <p>Northamptonshire, UK</p>
-   
-                          <div class="hotel_description">
-                            <p>Professional Host</p>
-                              <p>18-23 Feb</p>
-   
-                            <div class="hotel_price">
-                              <p><strong>£748</strong> total</p>
-   
-                              <div class="hotel_star_icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;"><path fill-rule="evenodd" d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path></svg>
-                                <span class="hotel_rating">
-                                <span>4.97</span>
-                                
-                               </div>
-                             </div>
-                           </div>
-                         </div>
-                       </div>
-                     </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="hotel_listing">
+              <div class="hotel_img">
+                <img src="img/img4.webp" alt="picture of a water tower that has been turned into a house"/>
+                  <div class="hotel_hearticon">
+                    <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path></svg>
+                    </button> 
+                  </div>
+              </div>
+                         
+              <div class="hotel_info">
+                <div class="hotel_location">
+                  <p>Kenilworth, UK</p>
+                </div> 
+          
+                <div class="hotel_description">
+                  <p>Individual Host</p>
+                  <p>10-15 Jan</p>
+                </div>
+          
+                <div class="hotel_price">
+                  <p><strong>£1,023</strong> total</p>
+                </div>
+          
+                <div class="hotel_star_icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;"><path fill-rule="evenodd" d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path></svg>
+                  <span class="hotel_rating">
+                  <span>4.86</span>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="hotel_listing">
+              <div class="hotel_img">
+                <img src="img/img5.webp" alt="picture of a small log cabin"/>
+                  <div class="hotel_hearticon">
+                    <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path></svg>
+                    </button> 
+                  </div>
+              </div>
+                         
+              <div class="hotel_info">
+                <div class="hotel_location">
+                  <p>Oxfordshire, UK</p>
+                </div> 
+          
+                <div class="hotel_description">
+                  <p>Individual Host</p>
+                  <p>7-12 Apr</p>
+                </div>
+          
+                <div class="hotel_price">
+                  <p><strong>655</strong> total</p>
+                </div>
+          
+                <div class="hotel_star_icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;"><path fill-rule="evenodd" d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path></svg>
+                  <span class="hotel_rating">
+                  <span>4.93</span>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="hotel_listing">
+              <div class="hotel_img">
+                <img src="img/img6.webp" alt="picture of a cottage overlooking fields"/>
+                  <div class="hotel_hearticon">
+                    <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path></svg>
+                    </button> 
+                  </div>
+              </div>
+                         
+              <div class="hotel_info">
+                <div class="hotel_location">
+                  <p>Walterstone, UK</p>
+                </div> 
+          
+                <div class="hotel_description">
+                  <p>Individual Host</p>
+                  <p>1-7 Nov</p>
+                </div>
+          
+                <div class="hotel_price">
+                  <p><strong>£924</strong> total</p>
+                </div>
+          
+                <div class="hotel_star_icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;"><path fill-rule="evenodd" d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path></svg>
+                  <span class="hotel_rating">
+                  <span>4.83</span>
+
+                </div>
+              </div>
+            </div>
+                                    
+                        
+
 
                      
-
-                
-      
-
-    <div class="hotel_listing">
-      <div class="hotel_img">
-    <img src="img/img3.webp" alt="picture of a field"/>
-     <div class="hotel_hearticon">
-      <button>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path></svg>
-      </button> 
-      </div>
-       <div class="hotel_location">
-        <p>Ashington, UK<p>
-        <div class="hotel_description">
-        <p>Individual Host<p>
-        <p>6-11 May<p>
-        <div class="hotel_price">
-        <p><strong>£1,169</strong> total<p>
-        <div class="hotel_star_icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;"><path fill-rule="evenodd" d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path></svg>
-        <span class="hotel_rating">
-        <span>4.99</span>
-      </div>
-      </div>
-      </div>
-    </div>
-    </div>
-  </div>
-          
-  <div class="hotel_listing">
-    <div class="hotel_img">
-  <img src="img/img4.webp" alt="picture of a water tower that has been turned into a house"/>
-   <div class="hotel_hearticon">
-    <button>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path></svg>
-    </button> 
-    </div>
-     <div class="hotel_location">
-      <p>Kenilworth, UK<p>
-      <div class="hotel_description">
-      <p>Indivdual Host<p>
-      <p>10-15 Jan<p>
-      <div class="hotel_price">
-      <p><strong>£1,023</strong> total<p>
-      <div class="hotel_star_icon">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;"><path fill-rule="evenodd" d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path></svg>
-      <span class="hotel_rating">
-      <span>4.86</span>
-     </div>
-    </div>
-    </div>
-  </div>
-  </div>
-                                        </div>
-                                        <navbar class="navbar">
-                                          <div class="navbar_pools">
-                                            <button> <img src="img/amazing_pools.jpg" alt="icon of a pool"/> 
-                                            <br>Amazing Pools</button>
-                                        </div> 
-                                          <div class="navbar_grid">
-                                            <button> <img src="img/off_the_grid.jpg" alt="icon of a small grid"/>
-                                            <br>Off-the-grid</button>
-                                        </div>
-                                          <div class="navbar_lakefront">
-                                            <button> <img src="img/lake.jpg" alt="icon of a lake"/>
-                                            <br>Lakefront</button>
-                                          </div>     
-                                          <div class="navbar_world">
-                                            <button> <img src="img/top_of_world.jpg" alt="icon of a mountain with flag at top"/>
-                                            <br>Top of the world</button>
-                                          </div>
-                                          <div class="navbar_bed">
-                                            <button> <img src="img/bed_breakfast.jpg" alt="icon of a cup of tea"/>
-                                            <br>Bed & Breakfasts</button>
-                                          </div>
-
- 
-
-
-                    <div class="hotel">
-                      <div class="hotel_img">
-                        <img src="img/img5.webp" alt="picture of a small log cabin"/>
-                        </div>
-                      </div>
-                    <div class="hotel_hearticon">
-                      <button>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path></svg>
-                      </button> 
-                    </div>
-                      <div class="hotel_location">
-                        <p>Oxfordshire, UK</p>
-                      </div>
-                      <div class="hotel_description">
-                        <p>Individual Host<p>
-                        <p>7-12 Apr<p>
-                      </div>
-                      <div class="hotel_price">
-                        <p><strong>£655</strong> total</p>
-                      </div>
-                      <div class="hotel_star_icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;"><path fill-rule="evenodd" d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path></svg>
-                      <span class="hotel_rating">
-                        <span>4.93</span>
-                      </span>
-
-                      <div class="hotel">
-                        <div class="hotel_img">
-                          <img src="img/img6.webp" alt="picture of cabin overlooking a field"/>
-                          </div>
-                        </div>
-                      <div class="hotel_hearticon">
-                        <button>
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path></svg>
-                        </button> 
-                      </div>
-                        <div class="hotel_location">
-                          <p>Walterstone, UK</p>
-                        </div>
-                        <div class="hotel_description">
-                          <p>Individual Host<p>
-                          <p>1-7 Nov<p>
-                        </div>
-                        <div class="hotel_price">
-                          <p><strong>£924</strong> total</p>
-                        </div>
-                        <div class="hotel_star_icon">
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;"><path fill-rule="evenodd" d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path></svg>
-                        <span class="hotel_rating">
-                          <span>4.83</span>
-                        </span>
 
                         <div class="hotel">
                           <div class="hotel_img">
