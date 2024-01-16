@@ -1,0 +1,7 @@
+/* Global styles */
+
+body {
+    margin: 0;
+    /* this font size will effect all elements unless different sizes specified in classes */
+    font-size: 12px;
+}
