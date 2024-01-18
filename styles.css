@@ -24,6 +24,9 @@ body {
     text-size-adjust: 100%;
     -webkit-box-direction: normal;
     -webkit-font-smoothing: antialiased;
+    border-top-color: #717171;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 6px 0px;
+    border-top-width: 0px;
 }
 
 
@@ -194,10 +197,15 @@ background-color: rgba(0, 0, 0, 0);
     touch-action: manipulation;
     -webkit-box-direction: normal;
     -webkit-font-smoothing: antialiased;
+    
+
+    
 
 
    
 }
+
+
 
 .navbar_pools{
     align-items: center;
@@ -637,7 +645,7 @@ background-color: rgba(0, 0, 0, 0);
 .navbar_beaches{
     align-items: center;
     box-sizing: border-box;
-    color: rgba(0, 0, 0, 0);
+    
     column-gap: 4px;
     display: flex;
     flex-direction: column;
@@ -655,6 +663,7 @@ background-color: rgba(0, 0, 0, 0);
     -webkit-font-smoothing: antialiased;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     width: 65px;
+
 }
 
 .beaches{
