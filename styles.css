@@ -82,6 +82,12 @@ body {
     grid-column-start: 1;
     width: 200px;
     text-align: start;
+    @font-face {
+    font-family: myFirstFont;
+    src: url(https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2);
+      }
+      
+
 }
 
 
