@@ -6,6 +6,21 @@ body {
     font-size: 12px;
 }
 
+@font-face{
+    font-family: Airbnb1;
+    src:url(https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Bold-bdfb98485e7836ba31b456f65cded088.woff2)
+}
+
+@font-face{
+    font-family: Airbnb2;
+    src:url(https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Medium-50fc004b3082375f12ff0cfb67bf8e56.woff2)
+}
+
+font-face{
+    font-family: Airbnb3;
+    src:url(https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2)
+}
+
 /* Header layout */
 
 .header {
@@ -75,18 +90,15 @@ body {
     cursor: pointer;
     display: block;
     justify-items: start;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 14px;
     padding-left: 55px;
     grid-row-start: 2;
     grid-column-start: 1;
     width: 200px;
     text-align: start;
-    @font-face {
-    font-family: myFirstFont;
-    src: url(https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2);
-      }
-      
+    font-family: Airbnb2;
+    
 
 }
 
@@ -126,11 +138,13 @@ body {
     flex-grow: 0;
     flex-shrink: 1;
     font-size: 12px;
+    font-weight: 400;
     letter-spacing: normal;
     line-break: strict;
     line-height: 16px;
     min-width: 50px;
-
+    font-family: Airbnb2;
+    padding: 0px;
    
 }
 
@@ -140,8 +154,18 @@ body {
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
     font-size: 12px;
-
+    font-weight: 400;
+    letter-spacing: normal;
+    line-break: strict;
+    line-height: 16px;
+    min-width: 50px;
+    font-family: Airbnb2;
+    padding: 0px;
+    
     }
 
     .search {
@@ -288,12 +312,13 @@ background-color: rgba(0, 0, 0, 0);
     display: inline-block;
     color: #717171;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 100;
     letter-spacing: normal;
     line-break: strict;
     line-height: 16px;
+    padding-top:5px;
     text-align: center;
     text-size-adjust: 100%;
     text-wrap: nowrap;
-   
+    font-family: Airbnb2;
 }
