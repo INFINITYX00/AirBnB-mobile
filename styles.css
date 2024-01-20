@@ -200,6 +200,7 @@ background-color: rgba(0, 0, 0, 0);
 
 .navbar {
     box-sizing: border-box;
+    color: rgb(34, 34, 34);
     column-gap: 16px;
     contain: none;
     contain-intrinsic-height: none;
@@ -215,6 +216,7 @@ background-color: rgba(0, 0, 0, 0);
     justify-content: flex-start;
     line-break: strict;
     line-height: 20.02px:
+    overflow-x: auto;
     overflow-y: hidden;
     overscroll-behavior-inline: contain;
     padding-inline-end: 24px;
@@ -223,6 +225,7 @@ background-color: rgba(0, 0, 0, 0);
     scroll-padding-inline-end: 24px;
     scroll-padding-inline-start: 24px;
     scroll-snap-type: none;
+    scroll-behaviour: smooth;
     text-size-adjust: 100%;
     touch-action: manipulation;
     -webkit-box-direction: normal;
