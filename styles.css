@@ -325,3 +325,114 @@ background-color: rgba(0, 0, 0, 0);
     text-wrap: nowrap;
     font-family: Airbnb2;
 }
+
+
+.section{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    contain: content;
+    display: block;
+    isolation: isolate;
+    line-break: strict;
+    line-height: 20.02px;
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+.hotel_listing {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0;
+    font-family: Airbnb1;
+    font-size: 14px;
+    isolation: isolate;
+    line-break: strict;
+    line-height: 20.02px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-size-adjust: 100%;
+    
+
+}
+
+
+
+    
+.hotel_img {
+    background-color: rgb(221, 221, 221);
+    border-radius: 12px;
+    box-sizing: border-box;
+    color:rgb(34, 34, 34);
+    content-visibility: visible;
+    contain-intrinsic-height: none;
+    object-fit: cover;
+    overflow-clip-margin: content-box;
+    margin-bottom: 12px;
+    display: block;
+    line-break: strict;
+    line-height: 20px;
+    overflow-x: clip;
+    overflow-y: clip;
+    position: relative;
+    
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.hotel_info {
+    display: grid;
+    grid-template-columns: 8fr 1fr
+    
+}
+
+.hotel_location {
+    display: grid;
+    margin: 0px;
+}
+
+.hotel_description {
+    display: grid;
+    margin: 0px;
+}
+    
+.hotel_star_icon {
+    margin: 0px;
+
+}
+
+.hotel_rating {
+    grid-column-start: -2;
+    grid-column-end: -1;
+    padding: 0px;
+}
+
+
+
+
