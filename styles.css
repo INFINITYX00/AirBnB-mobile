@@ -220,7 +220,7 @@ background-color: rgba(0, 0, 0, 0);
     overflow-y: hidden;
     overscroll-behavior-inline: contain;
     padding-inline-end: 24px;
-    padding-inline-start: 0px;
+    padding-inline-start: 10px;
     row-gap: 16px;
     scroll-padding-inline-end: 24px;
     scroll-padding-inline-start: 24px;
