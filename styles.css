@@ -502,6 +502,7 @@ background-color: rgba(0, 0, 0, 0);
     display: flex;
     justify-content: center;
     text-align: center;
+    padding-bottom: 32px;
 }
 
 .show {
@@ -520,3 +521,100 @@ background-color: rgba(0, 0, 0, 0);
     padding: 14px 24px;
     
 }
+
+.getaways {
+    background-color: rgb(247, 247, 247);
+    background-origin: padding-box;
+    background-size: auto;
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    display: block;
+    font-family: Airbnb1;
+    font-size: 14px;
+    text-size-adjust: 100%;
+}
+
+.getaways_section {
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    display: block;
+    padding-block-end: 48px;
+    padding-block-start: 24px;
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    text-size-adjust: 100%;
+}
+
+.heading_get {
+    box-sizing: border-box;
+    font-size: 22px;
+    font-family: Airbnb1;
+    font-weight: 600;
+    padding-top: 26px;
+    margin-block-end: 8px;
+    margin-block-start: 0px;
+}
+
+.getaway_buttons {
+    box-sizing: border-box;
+    overflow-x: visible;
+    overflow-y: visible;
+    text-wrap: nowrap;
+    white-space-collapse: collapse;
+    touch-action: manipulation;
+    
+
+}
+
+.button_place {
+    align-items: flex-start;
+    background-attachment: scroll;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    color: rgb(113, 113, 113);
+    padding: 10px;
+    border: none;
+    background: none;
+    font-size: 15px;
+    font-family: Airbnb2;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    margin-right: 6px;
+    
+    
+}
+
+.border {
+    background-color: rgb(221, 221, 221);
+    box-sizing: border-box;
+    border-bottom-color: rgb(34, 34, 34);
+    border-image-width: 1;
+    height: 1px;
+}
+
+.getaways_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 24px;
+    grid-column-gap: 8px;
+    margin-top: 32px;
+    font-size: 14px;
+}
+
+.place {
+    font-family: Airbnb1;
+    color: #222222
+
+}
+
+.type {
+    font-family: Airbnb2;
+    color: #717171;
+}
+.arrow {
+    display: inline-block;
+}
+
+
+
