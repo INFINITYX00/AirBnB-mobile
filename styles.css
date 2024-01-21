@@ -404,15 +404,17 @@ background-color: rgba(0, 0, 0, 0);
 .heart_icon {
     display: block;
     color:rgb(34, 34, 34);
-    overflow-x: visible;
-    overflow-y: visible;
+    position: relative;
+
+
 }
 
 .heart {
-    color:black;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 5%;
+    right: 5%;
+    filter: drop-shadow(1px 0 0 rgb(255, 255, 255)) drop-shadow(-1px 0 0 rgb(255, 255, 255)) drop-shadow(0 1px 0 rgb(255, 255, 255)) drop-shadow(0 -1px 0 rgb(255, 255, 255));
+    
 }
 
 
