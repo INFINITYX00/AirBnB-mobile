@@ -562,12 +562,13 @@ background-color: rgba(0, 0, 0, 0);
     text-wrap: nowrap;
     white-space-collapse: collapse;
     touch-action: manipulation;
-    
+    display: block;
 
 }
 
 .button_place {
     align-items: flex-start;
+    flex-direction: column;
     background-attachment: scroll;
     background-position-x: 0%;
     background-position-y: 0%;
@@ -614,6 +615,47 @@ background-color: rgba(0, 0, 0, 0);
 }
 .arrow {
     display: inline-block;
+}
+
+.border {
+    background-color: rgb(221, 221, 221);
+    box-sizing: border-box;
+    border-bottom-color: rgb(34, 34, 34);
+    border-image-width: 1;
+    height: 1px;
+}
+
+
+.support_info {
+    box-sizing: border-box;
+    background-color: rgb(247, 247, 247);
+    display: block; 
+    font-family: Airbnb2;
+    font-size: 14px;
+    padding-inline-end: 24px;
+    padding-inline-start: 24px;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+
+
+
+.support,
+.hosting,
+.airbnb {
+    box-sizing: border-box;
+    color: #222222;
+    display: block;
+    padding-block-end: 8px;
+    padding-block-start: 8px;
+    
+
 }
 
 
