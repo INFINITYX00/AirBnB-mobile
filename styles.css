@@ -661,19 +661,33 @@ background-color: rgba(0, 0, 0, 0);
 .footer_info {
     box-sizing: border-box;
     display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 14px;
+
 }
 
-.globe_icon {
-    box-sizing: border-box;
-    display:inline-block;
-    align-items: 
-}
 .footer_language {
-    align-items: center;
+    box-sizing: border-box;
     display: flex;
-    text-wrap: nowrap
+
 }
 
+.globe_icon
+ {
+    box-sizing: border-box;
+    display:block;
+    text-align: start; 
+}
+
+.language {
+    margin-left: 8px;
+}
+
+.currency {
+    margin-left: 24px;
+    margin-right: 4px;
+}
 
 
   
