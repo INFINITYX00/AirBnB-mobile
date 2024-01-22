@@ -485,6 +485,8 @@ background-color: rgba(0, 0, 0, 0);
     color: rgb(34, 34, 34);
     display: block;
     margin-top: 56px;
+    white-space: nowrap;
+    text-wrap: nowrap;
 
 }
 
@@ -532,6 +534,8 @@ background-color: rgba(0, 0, 0, 0);
     font-family: Airbnb1;
     font-size: 14px;
     text-size-adjust: 100%;
+    white-space: nowrap;
+    text-wrap: nowrap;
 }
 
 .getaways_section {
@@ -543,6 +547,7 @@ background-color: rgba(0, 0, 0, 0);
     padding-inline-start: 24px;
     padding-inline-end: 24px;
     text-size-adjust: 100%;
+    
 }
 
 .heading_get {
@@ -553,16 +558,16 @@ background-color: rgba(0, 0, 0, 0);
     padding-top: 26px;
     margin-block-end: 8px;
     margin-block-start: 0px;
+    white-space: nowrap;
+    text-wrap: nowrap;
 }
 
 .getaway_buttons {
     box-sizing: border-box;
-    overflow-x: visible;
-    overflow-y: visible;
-    text-wrap: nowrap;
     white-space-collapse: collapse;
     touch-action: manipulation;
     display: block;
+    
 
 }
 
@@ -637,26 +642,38 @@ background-color: rgba(0, 0, 0, 0);
 
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-    
-}
-
-
-
-
-.support,
-.hosting,
-.airbnb {
+.info_list {
     box-sizing: border-box;
     color: #222222;
     display: block;
     padding-block-end: 8px;
     padding-block-start: 8px;
+}
     
+.info_descrip {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    row-gap: 12px;
+}
 
+
+.footer_info {
+    box-sizing: border-box;
+    display: block;
+}
+
+.globe_icon {
+    box-sizing: border-box;
+    display:inline-block;
+    align-items: 
+}
+.footer_language {
+    align-items: center;
+    display: flex;
+    text-wrap: nowrap
 }
 
 
 
+  
