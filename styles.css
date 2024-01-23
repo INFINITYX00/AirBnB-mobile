@@ -29,7 +29,6 @@ font-face{
     color: rgb(34, 34, 34);
     column-gap: 10px;
     display: block;
-    grid-template-columns: minmax(40px) 0fr 1fr;
     line-break: strict;
     line-height: 20px;
     padding-inline-end: 12px;
@@ -45,6 +44,14 @@ font-face{
     border-top-width: 0px;
 }
 
+.header_container {
+    display: grid;
+    grid-template-columns: minmax(0,1fr) 40px; 
+    padding-inline-end: 16px;
+    
+
+}
+
 
 .header_content {
    align-items: center;
@@ -57,10 +64,10 @@ font-face{
    box-sizing: border-box;
    color: rgb(34, 34, 34);
    display: grid;
-   grid-template-columns: minmax(40px) 0fr 1fr;
+   grid-template-columns: 40px minmax(0,1fr); 
    font-size: 14px;
    font-weight: 400;
-   height: 54px;
+   height: 56px;
    margin: 0px;
    max-width: 100%;
    outline-color: rgb(34, 34, 34);
@@ -77,26 +84,31 @@ font-face{
    padding-top: 0px;
    position: relative;
    text-align: start;
+   max-width: 2500px;
  
 
 }
 
+.header_top {
+    justify-self: start;
+    margin-left: 15px;
+
+}
+
+
 .button_anywhere {
-    align-self: center;
+    align-self: start;
     box-sizing: border-box;
     color: rgb(34, 34, 34);
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
     cursor: pointer;
-    display: block;
+    display: grid;
     justify-items: start;
     font-weight: 400;
     font-size: 14px;
-    padding-left: 55px;
-    grid-row-start: 2;
-    grid-column-start: 1;
-    width: 200px;
+    
     text-align: start;
     font-family: Airbnb2;
     
@@ -114,18 +126,17 @@ font-face{
     font-weight: 400;
     height: 16px;
     justify-self: start;
-    width: 200px auto;
+    width: auto;
     text-align: start;
-    padding-left: 50px;
+    padding-left: 5px;
     line-height: 16px;
-    padding-inline-end: 24px;
-    padding-bottom: 0 px;
+    
+   
     row-gap: 5px;
     text-align: start;
     text-indent: 0px;
-    width: 373px;
-    grid-row-start: 3;
-    grid-column-start: 1;
+    
+   
 
 
 }
@@ -135,9 +146,6 @@ font-face{
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
-    flex-basis: auto;
-    flex-grow: 0;
-    flex-shrink: 1;
     font-size: 12px;
     font-weight: 400;
     letter-spacing: normal;
@@ -155,9 +163,7 @@ font-face{
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
-    flex-basis: auto;
-    flex-grow: 0;
-    flex-shrink: 1;
+    
     font-size: 12px;
     font-weight: 400;
     letter-spacing: normal;
@@ -168,34 +174,54 @@ font-face{
     padding: 0px;
     
     }
-
+    
+    
     .search {
         align-self: center;
         box-sizing: border-box;
         color: rgb(34, 34, 34);
         display: grid;
         font-size: 14px;
-        grid-row-start: 2;
-        grid-column-start: 1;
-        justify-items: center;
+        grid-row: 2 / span 1;
+        justify-self: center;
         letter-spacing: normal;
         line-break: strict;
         line-height: 20.02px;
         text-align: start;
         text-indent: 0px;
-        padding-left: 3px;
-        padding-top: 1px;
-        width: 52px;
+        margin-left: 16px;
+        
      }
 
-.slider {
-align-items: center;
-appearance: button;
-display: inline;
-background-attachment: scroll;
-background-clip: border-box;
-background-color: rgba(0, 0, 0, 0);
+.header_slider
+ {
 
+padding-left: 10px;
+display: block;
+align-self: center;
+position: relative;
+
+
+}
+
+.style_slider {
+    align-items: center;
+    appearance: button;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgb(176,176,176);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    
 }
 
 
