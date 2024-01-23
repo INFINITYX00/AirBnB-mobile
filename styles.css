@@ -4,6 +4,7 @@ body {
     margin: 0;
     /* this font size will effect all elements unless different sizes specified in classes */
     font-size: 12px;
+    font-family: Airbnb
 }
 
 @font-face{
@@ -490,11 +491,12 @@ background-color: rgba(0, 0, 0, 0);
 
 }
 
-.explore {
+.exploring {
     text-align: center;
     font-family: Airbnb2;
     font-size: 18px;
     margin-top: 56px;
+    margin-bottom: 18px;
 
 }
 
@@ -690,4 +692,70 @@ background-color: rgba(0, 0, 0, 0);
 }
 
 
+.navfoot {
+    background-color: rgb(255, 255, 255);
+    background-size: stretch;
+    background-repeat: repeat;
+    background-clip: border-box;
+    border-top-color: rgb(235, 235, 235);
+    border-top-style: solid;
+    border-top-width: 1px;
+    background-attachment: scroll;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    padding: 10px 0px;
+    position: sticky;
+    bottom: 0;
+    
+
+}
   
+.navfoot_menu {
+    align-items: flex-start;
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: center;
+    font-family:Airbnb2;
+    color: #717171;
+    margin-left: 60px;
+    margin-right: 60px
+    
+    
+}
+
+.nav_but {
+    align-items: center;
+    display: flex;
+    flex-basis: 0px;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    line-break: strict;
+    line-height: 20px;
+    padding: 0px 2px;
+    text-align: center;
+    border-width: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    overflow-wrap: break-word;
+   
+}
+
+.nav_click {
+    color:#717171;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.explore {
+    
+    color: #717171;
+    font-size: 10px;
+    text-align: center;
+    margin: 0;
+}
