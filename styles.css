@@ -1,10 +1,10 @@
 /* Global styles */
 
 body {
-    margin: 0 auto;
     /* this font size will effect all elements unless different sizes specified in classes */
+    font-family: Airbnb2;
     font-size: 12px;
-    font-family: Airbnb
+    margin: 0 auto;
 }
 
 @font-face{
@@ -32,7 +32,7 @@ font-face{
     display: block;
     line-break: strict;
     line-height: 20px;
-    padding-inline-end: 12px;
+    padding-inline-end: 24px;
     padding-inline-start: 24px;
     padding-top: 14px;
     position: static;
@@ -504,6 +504,7 @@ position: relative;
 .hotel_rating {
    align-items: center;
    display: flex;
+   justify-content: flex-end;
    padding-top: 12px;
    font-size: 15px;
    
