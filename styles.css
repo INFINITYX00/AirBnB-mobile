@@ -1,7 +1,7 @@
 /* Global styles */
 
 body {
-    margin: 0;
+    margin: 0 auto;
     /* this font size will effect all elements unless different sizes specified in classes */
     font-size: 12px;
     font-family: Airbnb
@@ -386,6 +386,7 @@ position: relative;
     display: flex;
     flex-basis: 100%;
     flex-direction: column;
+    align-items: stretch;
     flex-grow: 1;
     flex-shrink: 0;
     font-family: Airbnb2;
@@ -415,13 +416,15 @@ position: relative;
     overflow-clip-margin: content-box;
     margin-bottom: 0px;
     display: block;
+    
     line-break: strict;
     line-height: 20px;
     overflow-x: clip;
     overflow-y: clip;
     position: relative;
-    height: 89vw;
-    width: 89vw;
+    height: 85vw;
+    width: auto;
+   
     
 }
 
