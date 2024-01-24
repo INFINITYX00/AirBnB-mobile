@@ -26,34 +26,31 @@ font-face{
 
 .header {
     background-color: rgb(255, 255, 255);
+    border-top-color: #717171;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 6px 0px;
+    border-top-width: 0px;
     box-sizing: border-box;
     color: rgb(34, 34, 34);
     column-gap: 10px;
     display: block;
     line-break: strict;
     line-height: 20px;
-    padding-inline-end: 24px;
-    padding-inline-start: 24px;
     padding-top: 14px;
-    position: static;
+    position: sticky;
     row-gap: 10px;
     text-size-adjust: 100%;
+    top: 0;
     -webkit-box-direction: normal;
     -webkit-font-smoothing: antialiased;
-    border-top-color: #717171;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 6px 0px;
-    border-top-width: 0px;
-    position: sticky;
-    top: 0;
-    z-index: 1;
+    z-index: 1; 
 }
 
 .header_container {
     display: grid;
     grid-template-columns: minmax(0,1fr) 40px; 
-    padding-inline-end: 16px;
-    
-
+    column-gap: 12px;
+    padding-inline-end: 24px;
+    padding-inline-start: 24px;
 }
 
 
@@ -68,7 +65,7 @@ font-face{
    box-sizing: border-box;
    color: rgb(34, 34, 34);
    display: grid;
-   grid-template-columns: 40px minmax(0,1fr); 
+   grid-template-columns: 48px minmax(0,1fr); 
    font-size: 14px;
    font-weight: 400;
    height: 56px;
@@ -89,15 +86,8 @@ font-face{
    position: relative;
    text-align: start;
    max-width: 2500px;
- 
-
 }
 
-.header_top {
-    justify-self: start;
-    margin-left: 15px;
-
-}
 
 
 .button_anywhere {
@@ -109,14 +99,11 @@ font-face{
     border: none;
     cursor: pointer;
     display: grid;
-    justify-items: start;
-    font-weight: 400;
-    font-size: 14px;
-    
-    text-align: start;
     font-family: Airbnb2;
-    
-
+    font-size: 14px;
+    font-weight: 400;
+    text-align: start;
+    justify-items: start;
 }
 
 
@@ -124,41 +111,29 @@ font-face{
     align-self: start;
     box-sizing: border-box;
     color: #717171;
-    column-gap: 5px;
     display: flex;
     font-size: 12px;
     font-weight: 400;
     height: 16px;
     justify-self: start;
-    width: auto;
-    text-align: start;
-    padding-left: 5px;
     line-height: 16px;
-    
-   
-    row-gap: 5px;
     text-align: start;
     text-indent: 0px;
-    
-   
-
-
+    width: auto;
 }
 
 .button_anyweek {
-    color: #717171;
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
+    color: #717171;
+    font-family: Airbnb2;
     font-size: 12px;
     font-weight: 400;
     letter-spacing: normal;
     line-break: strict;
     line-height: 16px;
     min-width: 50px;
-    font-family: Airbnb2;
-    padding: 0px;
-   
 }
 
 
@@ -167,45 +142,43 @@ font-face{
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
-    
+    font-family: Airbnb2;
     font-size: 12px;
     font-weight: 400;
     letter-spacing: normal;
     line-break: strict;
     line-height: 16px;
     min-width: 50px;
-    font-family: Airbnb2;
-    padding: 0px;
-    
-    }
+}
     
     
-    .search {
-        align-self: center;
-        box-sizing: border-box;
-        color: rgb(34, 34, 34);
-        display: grid;
-        font-size: 14px;
-        grid-row: 2 / span 1;
-        justify-self: center;
-        letter-spacing: normal;
-        line-break: strict;
-        line-height: 20.02px;
-        text-align: start;
-        text-indent: 0px;
-        margin-left: 16px;
-        
-     }
+.search {
+    align-self: center;
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    display: grid;
+    font-size: 14px;
+    grid-row: 2 / span 1;
+    justify-content: center;
+    letter-spacing: normal;
+    line-break: strict;
+    line-height: 20.02px;
+    text-align: start;      
+    text-indent: 0px;    
+}
 
-.header_slider
- {
+.search_function{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 52px;
+}
 
-padding-left: 10px;
-display: block;
-align-self: center;
-position: relative;
-
-
+.header_slider{
+   align-self: center;
+   display: flex;
+   justify-content: center;
+   position: relative;
 }
 
 .style_slider {
@@ -220,11 +193,10 @@ position: relative;
     border-radius: 50%;
     height: 40px;
     width: 40px;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     border-radius: 50%;
-    height: 40px;
-    width: 40px;
+    
     
 }
 
@@ -244,8 +216,9 @@ position: relative;
     justify-content: flex-start;
     line-break: strict;
     overflow-x: auto;
+    overflow-y: hidden;
     padding-inline-end: 24px;
-    padding-inline-start: 10px;
+    padding-inline-start: 24px;
     position: relative;
     row-gap: 16px;
     scroll-padding-inline-end: 24px;
@@ -254,13 +227,7 @@ position: relative;
     text-size-adjust: 100%;
     touch-action: manipulation;
     -webkit-box-direction: normal;
-    -webkit-font-smoothing: antialiased;
-    
-
-    
-
-
-   
+    -webkit-font-smoothing: antialiased; 
 }
 
 
@@ -290,11 +257,11 @@ position: relative;
 
 .picture{
     align-items: center;
-    box-sizing: border-box;
-    color: rgba(0, 0, 0, 0);
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0);
     display: flex;
     flex-direction: column;
     font-size: 12px;
@@ -317,15 +284,14 @@ position: relative;
 .pic_icon{
     aspect-ratio: auto;
     box-sizing: border-box;
-    display: block;
     color: rgba(0, 0, 0, 0);
-    font-weight: 600px;
+    display: block;
+    font-weight: 600;
     height: 24px;
     letter-spacing: normal;
     line-break: strict;
     line-height: 16px;
     max-width: 100%;
-    height: 24px;
     opacity: 1;
     overflow-clip-margin: content-box;
     overflow-x: clip;
@@ -336,8 +302,8 @@ position: relative;
 
 .description {
     box-sizing: border-box;
-    display: inline-block;
     color: #717171;
+    display: inline-block;
     font-size: 12px;
     font-weight: 100;
     letter-spacing: normal;
@@ -366,7 +332,6 @@ position: relative;
     contain: content;
     display: block;
     isolation: isolate;
-    
     text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
 }
@@ -374,6 +339,7 @@ position: relative;
 
 
 .hotel_listing {
+    align-items: stretch;
     background-attachment: scroll;
     background-clip: border-box;
     background-color: rgba(0, 0, 0, 0);
@@ -386,20 +352,16 @@ position: relative;
     display: flex;
     flex-basis: 100%;
     flex-direction: column;
-    align-items: stretch;
     flex-grow: 1;
     flex-shrink: 0;
     font-family: Airbnb2;
     font-size: 14px;
     isolation: isolate;
-   
     margin-bottom: 24px;
     margin-top: 24px;
     padding-left: 24px;
     padding-right: 24px;
     text-size-adjust: 100%;
-    
-
 }
 
 
@@ -412,20 +374,17 @@ position: relative;
     color:rgb(34, 34, 34);
     content-visibility: visible;
     contain-intrinsic-height: none;
-    object-fit: cover;
-    overflow-clip-margin: content-box;
-    margin-bottom: 0px;
     display: block;
-    
+    height: 85vw;
     line-break: strict;
     line-height: 20px;
+    margin-bottom: 0px;
+    object-fit: cover;
+    overflow-clip-margin: content-box;
     overflow-x: clip;
     overflow-y: clip;
     position: relative;
-    height: 85vw;
-    width: auto;
-   
-    
+    width: auto;   
 }
 
 .responsive {
@@ -437,8 +396,6 @@ position: relative;
     display: block;
     color:rgb(34, 34, 34);
     position: relative;
-
-
 }
 
 .heart {
@@ -446,68 +403,62 @@ position: relative;
     top: 5%;
     right: 5%;
     filter: drop-shadow(1px 0 0 rgb(255, 255, 255)) drop-shadow(-1px 0 0 rgb(255, 255, 255)) drop-shadow(0 1px 0 rgb(255, 255, 255)) drop-shadow(0 -1px 0 rgb(255, 255, 255));
-    
 }
-
-
 
 .hotel_info {
     display: grid;
+    font-family: Airbnb2;
     grid-template-columns: 8fr 1fr;
     margin-bottom: none;
-    font-family: Airbnb2;
     text-overflow: ellipsis;
     text-size-adjust: 100%;
-    
 }
 
 .hotel_location {
     display: grid;
-    margin-top: 13px;
+    font-family:Airbnb2;
     font-size: 15px;
-    font-family:Airbnb2
+    margin-top: 13px;
 }
 
 .hotel_description {
-    display: grid;
-    margin: 0px;
-    font-family: Airbnb2;
     color: #717171;
+    display: grid;
+    font-family: Airbnb2;
     font-size: 15px;
+    margin: 0px;
     margin-top: 6px;
 }
 
 .hotel_date {
-    display: grid;
-    margin: 0px;
-    font-family: Airbnb2;
     color: #717171;
+    display: grid;
+    font-family: Airbnb2;
     font-size: 15px;
-    margin-top: 6px;
+    margin: 0px;
+    margin-top: 6px;  
 }
 
 .hotel_price {
-    display: grid;
-    margin: 0px;
-    font-family: Airbnb2;
     color: #222222;
+    display: grid;
+    font-family: Airbnb2;
     font-size: 15px;
-    text-decoration: underline;
+    margin: 0px;
     margin-top: 8px;
+    text-decoration: underline;
 }
     
 .hotel_star_icon {
     margin: 0px;
-
 }
 
 .hotel_rating {
    align-items: center;
    display: flex;
+   font-size: 15px;
    justify-content: flex-end;
    padding-top: 12px;
-   font-size: 15px;
-   
 }
 
 
@@ -520,18 +471,17 @@ position: relative;
     color: rgb(34, 34, 34);
     display: block;
     margin-top: 56px;
-    white-space: nowrap;
     text-wrap: nowrap;
+    white-space: nowrap;
 
 }
 
 .exploring {
-    text-align: center;
     font-family: Airbnb2;
     font-size: 18px;
     margin-top: 56px;
     margin-bottom: 18px;
-
+    text-align: center;
 }
 
 .show_button {
@@ -557,7 +507,6 @@ position: relative;
     font-size: 16px;
     outline-color: rgb(255, 255, 255);
     padding: 14px 24px;
-    
 }
 
 .getaways {
@@ -570,8 +519,8 @@ position: relative;
     font-family: Airbnb1;
     font-size: 14px;
     text-size-adjust: 100%;
-    white-space: nowrap;
     text-wrap: nowrap;
+    white-space: nowrap;
 }
 
 .getaways_section {
@@ -583,7 +532,6 @@ position: relative;
     padding-inline-start: 24px;
     padding-inline-end: 24px;
     text-size-adjust: 100%;
-    
 }
 
 .heading_get {
@@ -594,88 +542,87 @@ position: relative;
     padding-top: 26px;
     margin-block-end: 8px;
     margin-block-start: 0px;
-    white-space: nowrap;
     text-wrap: nowrap;
+    white-space: nowrap;
 }
 
 .getaway_buttons {
     box-sizing: border-box;
-    white-space-collapse: collapse;
-    touch-action: manipulation;
     display: block;
-    
-
+    touch-action: manipulation;
+    white-space-collapse: collapse;
 }
 
 .button_place {
     align-items: flex-start;
-    flex-direction: column;
+    background: none;
     background-attachment: scroll;
     background-position-x: 0%;
     background-position-y: 0%;
     background-size: auto;
-    color: rgb(113, 113, 113);
-    padding: 10px;
     border: none;
-    background: none;
+    color: rgb(113, 113, 113);
+    flex-direction: column;
     font-size: 15px;
     font-family: Airbnb2;
     margin-bottom: 6px;
     margin-top: 6px;
     margin-right: 6px;
-    
-    
+    padding: 10px; 
 }
 
 .border {
     background-color: rgb(221, 221, 221);
-    box-sizing: border-box;
     border-bottom-color: rgb(34, 34, 34);
     border-image-width: 1;
+    box-sizing: border-box;
     height: 1px;
 }
 
 .getaways_list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-row-gap: 24px;
-    grid-column-gap: 8px;
-    margin-top: 32px;
     font-size: 14px;
+    grid-column-gap: 8px;
+    grid-row-gap: 24px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 32px;
+    
 }
 
+.list {
+    display: block;
+}
 .place {
+    color: #222222;
     font-family: Airbnb1;
-    color: #222222
-
 }
 
 .type {
-    font-family: Airbnb2;
     color: #717171;
+    font-family: Airbnb2;
 }
+
 .arrow {
     display: inline-block;
 }
 
 .border {
     background-color: rgb(221, 221, 221);
-    box-sizing: border-box;
     border-bottom-color: rgb(34, 34, 34);
     border-image-width: 1;
+    box-sizing: border-box;
     height: 1px;
 }
 
 
 .support_info {
-    box-sizing: border-box;
     background-color: rgb(247, 247, 247);
+    box-sizing: border-box;
     display: block; 
     font-family: Airbnb2;
     font-size: 14px;
     padding-inline-end: 48px;
     padding-inline-start: 24px;
-
 }
 
 .info_list {
@@ -687,9 +634,9 @@ position: relative;
 }
     
 .info_descrip {
+    display: grid;
     list-style-type: none;
     padding: 0;
-    display: grid;
     row-gap: 12px;
 }
 
@@ -697,16 +644,14 @@ position: relative;
 .footer_info {
     box-sizing: border-box;
     display: block;
+    font-size: 14px;
     padding-top: 24px;
     padding-bottom: 24px;
-    font-size: 14px;
-
 }
 
 .footer_language {
     box-sizing: border-box;
     display: flex;
-
 }
 
 .globe_icon
@@ -725,8 +670,15 @@ position: relative;
     margin-right: 4px;
 }
 
+.airbnb {
+    font-family: Airbnb2;
+    font-size: 14px;
+}
+
 
 .navfoot {
+    align-items: center;
+    background-attachment: scroll;
     background-color: rgb(255, 255, 255);
     background-size: stretch;
     background-repeat: repeat;
@@ -734,34 +686,31 @@ position: relative;
     border-top-color: rgb(235, 235, 235);
     border-top-style: solid;
     border-top-width: 1px;
-    background-attachment: scroll;
-    align-items: center;
+    bottom: 0;
     box-sizing: border-box;
     display: flex;
     padding: 10px 0px;
-    position: sticky;
-    bottom: 0;
-
+    position: sticky; 
 }
   
 .navfoot_menu {
     align-items: flex-start;
     box-sizing: border-box;
+    color: #717171;
     display: flex;
     flex-basis: auto;
     flex-grow: 1;
     flex-shrink: 0;
-    justify-content: center;
     font-family:Airbnb2;
-    color: #717171;
+    justify-content: center;
     margin-left: 60px;
     margin-right: 60px
-    
-    
 }
 
 .nav_but {
     align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0px;
     display: flex;
     flex-basis: 0px;
     flex-direction: column;
@@ -769,26 +718,22 @@ position: relative;
     flex-shrink: 1;
     line-break: strict;
     line-height: 20px;
+    overflow-wrap: break-word;
     padding: 0px 2px;
     text-align: center;
-    border-width: 0px;
-    background-color: rgba(0, 0, 0, 0);
-    overflow-wrap: break-word;
-   
 }
 
 .nav_click {
+    align-items: center;
     color:#717171;
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
 .explore {
-    
     color: #717171;
-    font-size: 10px;
-    text-align: center;
+    font-size: 10px; 
     margin: 0;
+    text-align: center;
 }
