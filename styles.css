@@ -25,6 +25,7 @@ font-face{
 /* Header layout */
 
 .header {
+    background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     color: rgb(34, 34, 34);
     column-gap: 10px;
@@ -42,6 +43,9 @@ font-face{
     border-top-color: #717171;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 6px 0px;
     border-top-width: 0px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .header_container {
