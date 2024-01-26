@@ -201,6 +201,8 @@ font-face{
 }
 
 
+/* Header navbar */
+
 .navbar {
     box-sizing: border-box;
     color: rgb(34, 34, 34);
@@ -316,6 +318,7 @@ font-face{
     font-family: Airbnb2;
 }
 
+/* Section layout */
 
 .section{
     background-attachment: scroll;
@@ -335,6 +338,8 @@ font-face{
     text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
 }
+
+/* Hotel listings */
 
 
 
@@ -466,6 +471,8 @@ font-face{
     padding-left: 5px;
 }
 
+/* More hotels section */
+
 .more_hotels {
     box-sizing: border-box;
     color: rgb(34, 34, 34);
@@ -508,6 +515,8 @@ font-face{
     outline-color: rgb(255, 255, 255);
     padding: 14px 24px;
 }
+
+/* Future getaways section */
 
 .getaways {
     background-color: rgb(247, 247, 247);
@@ -614,6 +623,10 @@ font-face{
     height: 1px;
 }
 
+/* Footer information */
+
+/* Support, hosting and Airbnb sections */
+
 
 .support_info {
     background-color: rgb(247, 247, 247);
@@ -640,6 +653,7 @@ font-face{
     row-gap: 12px;
 }
 
+/* Footer info */
 
 .footer_info {
     box-sizing: border-box;
@@ -674,6 +688,8 @@ font-face{
     font-family: Airbnb2;
     font-size: 14px;
 }
+
+/* Footer Navbar */
 
 
 .navfoot {
