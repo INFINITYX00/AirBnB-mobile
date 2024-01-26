@@ -17,11 +17,6 @@ body {
     src:url(https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Medium-50fc004b3082375f12ff0cfb67bf8e56.woff2)
 }
 
-font-face{
-    font-family: Airbnb3;
-    src:url(https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2)
-}
-
 /* Header layout */
 
 .header {
@@ -318,30 +313,7 @@ font-face{
     font-family: Airbnb2;
 }
 
-/* Section layout */
-
-.section{
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: rgb(255, 255, 255);
-    background-image: none;
-    background-origin: padding-box;
-    background-position-x: 0%;
-    background-position-y: 0%;
-    background-repeat: repeat;
-    background-size: auto;
-    box-sizing: border-box;
-    color: rgb(34, 34, 34);
-    contain: content;
-    display: block;
-    isolation: isolate;
-    text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
-}
-
 /* Hotel listings */
-
-
 
 .hotel_listing {
     align-items: stretch;
@@ -553,13 +525,6 @@ font-face{
     margin-block-start: 0px;
     text-wrap: nowrap;
     white-space: nowrap;
-}
-
-.getaway_buttons {
-    box-sizing: border-box;
-    display: block;
-    touch-action: manipulation;
-    white-space-collapse: collapse;
 }
 
 .button_place {
